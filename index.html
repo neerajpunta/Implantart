@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No-Prep Veneers | Same-Day Smile Makeover</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="asset/images/logo.svg" alt="Implant Art Logo" class="logo" height="60px">
+           <div class="navi">           
+		   <nav>
+                <ul>
+                    <li><a href="#sect2">Benefits</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#cta">Book Now</a></li>
+                </ul>
+            </nav>
+			</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="headline">Unleash Your Dream Smile Without Drills</h1>
+            <p class="sub-heading">Achieve a dazzling smile without altering your natural teeth. Get a straighter, brighter, and more confident smile in just one visit.</p>
+            <a href="booking.html" class="btn">Book an Appointment</a>
+	   </div>
+    </section>
+
+	    <div class="mainsect">
+			<section class="sect">    
+			<div class="text-column">
+			<h2>No-Prep Veneers for a Flawless Smile</h2>
+				<p>At ImplantArt, we offer No-Prep Veneers—a revolutionary, pain-free way to achieve a flawless smile without shaving down your natural teeth. Designed for instant transformations, these ultra-thin veneers are bonded directly to your teeth, delivering a stunning, natural look with minimal preparation.</p>
+				<a href="#" class="btn">Book Your Consultation</a>
+			</div>
+			<div class="image-column">
+				<img src="asset/images/nonprep.jpg" alt="No-Prep Veneers">
+			</div>
+			</section>
+	</div>
+<!-------------------------WHY US------------------>
+
+ <section class="sect2" id="sect2">
+        <h2>Why Choose No-Prep Veneers?</h2>
+        <div class="row">
+            <div class="colm2">
+                <img src="asset/icons/denprep.png" alt="Feature 1">
+                <h6>🦷 Minimal Preparation</h6>
+                <p>No removal of natural tooth structure—preserves your healthy enamel.</p>
+            </div>
+            <div class="colm2">
+                <img src="asset/icons/noinjt.png" alt="Feature 2">
+                <h6>😌 Non-Invasive</h6>
+                <p>No injections or drilling—perfect for those with dental anxiety.</p>
+            </div>
+            <div class="colm2">
+                <img src="asset/icons/tooth.png" alt="Feature 3">
+                <h6>✨ Natural-Looking</h6>
+                <p>Designed to match the shape, size, and color of your teeth for a seamless look.</p>
+            </div>
+            <div class="colm2">
+                <img src="asset/icons/reve.png" alt="Feature 4">
+                <h6>🔄 Potentially Reversible</h6>
+                <p>Since no enamel is removed, the procedure can be reversible.</p>
+            </div>
+        </div>
+    </section>
+
+<!-------------------------------------------------------->
+
+    <section id="process" class="process">
+        <div class="container">
+            <h2>Your Journey to a Perfect Smile</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Consultation</h3>
+                    <p>Discuss your smile goals with our specialists.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Digital Smile Design</h3>
+                    <p>Advanced 3D scans create a custom smile plan.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Same-Day Veneers</h3>
+                    <p>In many cases, get your veneers placed on the same day!</p>
+                </div>
+                <div class="step">
+                    <h3>4. Final Adjustments</h3>
+                    <p>Ensure the perfect fit and a confident smile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Take the First Step Towards Your Dream Smile!</h2>
+            <p>Book your free consultation today and transform your smile with No-Prep Veneers.</p>
+            <a href="tel:+123456789" class="btn">Call Now</a>
+            <a href="booking.html" class="btn btn-secondary">Book Online</a>
+        </div>
+    </section>
+<div class="faq-section">
+		<h2>Frequently Asked Questions</h2'>
+        <div class="faq-item">
+            <button class="faq-question">How long do no-prep veneers last?</button>
+            <div class="faq-answer">
+                <p>With proper care, no-prep veneers can last 10-15 years or more.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <button class="faq-question">Are no-prep veneers reversible?</button>
+            <div class="faq-answer">
+                <p>Yes! Since little to no enamel is removed, the process is reversible.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do no-prep veneers look natural?</button>
+            <div class="faq-answer">
+                <p>Absolutely! They are custom-designed to match the shape, size, and color of your natural teeth.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Is the procedure painful?</button>
+            <div class="faq-answer">
+                <p>No! The process is pain-free and requires no anesthesia in most cases.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach(item => {
+            const question = item.querySelector(".faq-question");
+
+            question.addEventListener("click", () => {
+                item.classList.toggle("active");
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove("active");
+                    }
+                });
+            });
+        });
+    </script>
+    <footer>
+        <div class="container">
+            <p>© 2025 ImplantArt</p>
+        </div>
+    </footer>
+
+</body>
+</html>
